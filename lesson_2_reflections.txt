@@ -28,3 +28,9 @@ change?
 The staging area gives the opportunity to check what changes have been made
 before they are committed. You can the  make sure you only commit the logically
 grouped changes to the repo.
+
+4. What are some situations when branches would be helpful in keeping your
+history organised? How would branches help?
+
+When you want to try out slightly different versions of features.
+When you want to try some kind of short-lived experimental feature.
