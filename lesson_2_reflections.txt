@@ -20,3 +20,11 @@ The staging area has value for:
 - Providing a two-step process gives a break point if you change your mind or
 have made a mistake.
 - It also provides the opportunity to batch up changes into a single commit.
+
+
+3. How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area gives the opportunity to check what changes have been made
+before they are committed. You can the  make sure you only commit the logically
+grouped changes to the repo.
