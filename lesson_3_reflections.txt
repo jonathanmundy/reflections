@@ -11,3 +11,16 @@ You want to be in control of the state of your repo on your local machine. If
 you were collaborating on a team, using Github, and your local repo automatically
 pulled repo updates from Github, you might end up with multiple conflicts and
 changes you weren't expecting.
+
+
+3. Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+A branch is a label for a history of commits that are separated from master,
+useful for new logically separate features, bug fixes or experiments.
+A clone is a copy of a repo, including all the history. Useful for copying a repo
+from one machine to another (including Github to machine).
+A fork is Github's version of a clone. It's a copy of a Github repo, which is
+copied into your own Github repo. Useful when you want to leverage someone's
+repo work (and ensure they retain credit) and update it with your own work
+(without impacting the original repo).
