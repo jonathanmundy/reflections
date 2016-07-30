@@ -34,3 +34,10 @@ history organised? How would branches help?
 
 When you want to try out slightly different versions of features.
 When you want to try some kind of short-lived experimental feature.
+
+
+5. How do the diagrams help you visualise the branch structure?
+
+They really help to understand the non-linear nature of git, where branches
+were made from master, how the branches relate to each other, and where new
+branches may result in a detached head state.
