@@ -51,3 +51,15 @@ on the same branch.
 We show it the way we do in the diagram to make it clear both histories are
 available, and to highlight where commits might still not be on the master
 branch.
+
+
+7. What are the pros and cons of Git's automatic merging vs always doing merges
+manually
+
+Automatic merging is great, when it's absolutely clear what needs to be merged,
+and there are no conflicts.
+Manual merging would be a pain for the 0 problem case.
+Automatic merging would require some crazy deep engineering to resolve conflicts,
+and probably still wouldn't be able to see the intent within a human's head.
+Manual merging is great when there are conflicts. It helps using humans to solve
+the fuzzy logic by revealing their own intent, or resolving through conversation.
