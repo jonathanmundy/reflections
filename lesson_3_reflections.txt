@@ -2,3 +2,12 @@
 
 For a number of reasons: when collaborating with others, when you want to use multiple machines,
 to open up the repo for contributors (open source), and to keep a separate copy of your repo.
+
+
+2. Why might you want to always pull changes manually rather than have Git
+automatically stay up-to-date with your remote repository?
+
+You want to be in control of the state of your repo on your local machine. If
+you were collaborating on a team, using Github, and your local repo automatically
+pulled repo updates from Github, you might end up with multiple conflicts and
+changes you weren't expecting.
