@@ -41,3 +41,13 @@ When you want to try some kind of short-lived experimental feature.
 They really help to understand the non-linear nature of git, where branches
 were made from master, how the branches relate to each other, and where new
 branches may result in a detached head state.
+
+
+6. What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+Merging two branches together results in both commit histories being available
+on the same branch.
+We show it the way we do in the diagram to make it clear both histories are
+available, and to highlight where commits might still not be on the master
+branch.
