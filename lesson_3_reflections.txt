@@ -31,3 +31,13 @@ stored locally?
 
 You can git diff, git log, etc on your local machine, without being connected
 to the interwebs.
+
+
+5. How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+With great difficulty! You'd have to use some other shared file repo, like google
+drive or dropbox. You'd be able to get files into the shared space more easily
+(maybe), but collaborating on the files, knowing what was changed, by whom, and
+when would be much more difficult. I wouldn't even want to think about how
+difficult it would be to incorporate changes...
