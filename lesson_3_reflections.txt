@@ -24,3 +24,10 @@ A fork is Github's version of a clone. It's a copy of a Github repo, which is
 copied into your own Github repo. Useful when you want to leverage someone's
 repo work (and ensure they retain credit) and update it with your own work
 (without impacting the original repo).
+
+
+4. What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+You can git diff, git log, etc on your local machine, without being connected
+to the interwebs.
