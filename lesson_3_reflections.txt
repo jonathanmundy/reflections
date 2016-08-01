@@ -41,3 +41,18 @@ drive or dropbox. You'd be able to get files into the shared space more easily
 (maybe), but collaborating on the files, knowing what was changed, by whom, and
 when would be much more difficult. I wouldn't even want to think about how
 difficult it would be to incorporate changes...
+
+
+6. When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+You'd want to make changes in a branch when you're collaborating with colleagues.
+Using a branch helps separate the logical changes. Keeping these off master until
+the team agrees on the merge (through a PR), helps everyone to keep the same
+understanding of the state of the master branch. Things shouldn't change out from
+underneath you, unexpectedly. This adds ceremony for the sake of clarity.
+
+The benefit of committing straight to master is the removal of the extra ceremony
+that comes with branching a PRs. This is fine if you're working on your own, so
+you always know the expected state of master. This would get messy quickly, if
+you were working on a team of collaborators.
